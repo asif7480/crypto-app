@@ -1,0 +1,49 @@
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.cryptoHeader{
+  width: 100%;
+  height: 200px;
+  background-color:  #758283;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cryptoHeader input{
+  width: 50%;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 10px;
+}
+
+.cryptoDisplay{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.coin{
+  width: 400px;
+  height: 300px;
+  background-color: #242B2E;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+coin img{
+  height: 100px;
+}
